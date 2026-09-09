@@ -31,7 +31,7 @@ app.use(
   }),
 );
 
-const allowedOrigins = (process.env.CLIENT_ORIGIN || "https://kaysens-group.vercel.app")
+const allowedOrigins = (process.env.CLIENT_ORIGIN || "https://kaysens-group.vercel.app,https://kaysens-group-bh78jta82-bra-dennis-projects.vercel.app")
   .split(",")
   .map((origin) => origin.trim());
 
